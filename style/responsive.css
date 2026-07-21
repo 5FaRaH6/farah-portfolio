@@ -1,0 +1,17 @@
+@media(max-width: 1100px){
+
+    #about{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .card{
+        width: 100%;
+        max-width: 650px;
+    }
+
+    .about-right img{
+        width: 320px;
+        height: 500px;
+    }
+}
