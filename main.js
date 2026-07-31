@@ -20,10 +20,10 @@ window.onload = function () {
         const section = document.querySelector("#projects");
         const rect = section.getBoundingClientRect();
 
-        if(rect.top < window.innerHeight - 150){
+        if (rect.top < window.innerHeight - 150) {
             title.classList.add("show");
         }
-        else{
+        else {
             title.classList.remove("show");
         }
 
@@ -55,11 +55,15 @@ window.onload = function () {
             <div class="project-tags">
                 ${project.technologies.map(tag => `<span>${tag}</span>`).join("")}
             </div>
+<a href="${project.github}" target="_blank">
+    GitHub
+</a>
 
-            <a href="${project.github}" target="_blank">
-                GitHub
-            </a>
-
+${project.demo && project.demo.trim() !== "" ? `
+<a href="${project.demo}" target="_blank">
+    Demo
+</a>
+` : ""}
         `;
 
 
