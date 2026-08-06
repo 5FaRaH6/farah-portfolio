@@ -1,5 +1,31 @@
 const projects = [
 
+  {
+    title: "EventSphere",
+
+    image: "images/projects/EventSphereImg.png",
+
+    description:
+      "Full-stack event management platform consisting of a mobile application for users and organizers, and an admin web dashboard for managing users, events, categories, reports, and organizer requests.",
+
+    technologies: [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "React Native",
+      "ASP.NET Core",
+      "C#",
+      "MongoDB",
+    ],
+
+    github:
+      "https://github.com/5FaRaH6/EventSphereProject.git",
+
+    demo:
+      ""
+  },
+
+
 
   {
     title: "Smart Notes AI",
@@ -23,6 +49,30 @@ const projects = [
     demo:
       ""
 
+  },
+
+  {
+    title: "Life Intelligence System",
+
+    image: "images/projects/LifeIntelligenceSystem.png",
+
+    description:
+    "A data-driven personal analytics dashboard that processes lifestyle data, visualizes trends through interactive charts, and generates useful insights.",
+
+    technologies: [
+      "Python",
+      "Flask",
+      "Pandas",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+
+    github:
+      "https://github.com/5FaRaH6/LifeIntelligenceSystem.git",
+
+    demo:
+      ""
   },
 
   {
