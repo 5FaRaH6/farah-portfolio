@@ -105,9 +105,7 @@ body{
 #main-content {
   position: relative;
 }
-/* =======================
-   HERO (VANTA AREA)
-======================= */
+
 
 #hero {
     width:100%;
@@ -124,8 +122,6 @@ body{
 }
 
 
-/* Pink Glow */
-
 .glow{
     position:absolute;
 
@@ -134,7 +130,7 @@ body{
 
     background:#ea95b1;
 
-    filter:blur(120px);
+    filter:blur(50px);
 
     opacity:.25;
 
@@ -143,8 +139,6 @@ body{
     z-index:1;
 }
 
-
-/* Hero Card */
 
 .hero-box {
 
@@ -178,8 +172,6 @@ body{
 }
 
 
-/* Animated border */
-
 .hero-box::before{
 
     content:"";
@@ -207,8 +199,6 @@ body{
 }
 
 
-/* Name */
-
 .hero-box h1 {
 
     font-family:"Quicksand", sans-serif;
@@ -230,8 +220,6 @@ body{
 }
 
 
-/* Pink letters */
-
 .hero-box h1 span {
 
     color:#f8bbd0;
@@ -243,9 +231,6 @@ body{
 
 }
 
-
-
-/* Main title */
 
 .hero-title {
 
@@ -261,8 +246,6 @@ body{
 
 
 
-/* Description */
-
 .hero-desc {
 
     margin:20px auto 30px;
@@ -277,9 +260,6 @@ body{
 
 }
 
-
-
-/* Tags */
 
 .hero-tags {
 
@@ -337,9 +317,6 @@ body{
 }
 
 
-
-/* Floating animation */
-
 @keyframes float {
 
     0%,100%{
@@ -357,8 +334,6 @@ body{
 
 }
 
-
-/* VANTA */
 
 #hero canvas {
 
@@ -414,9 +389,7 @@ body{
 }
 
 
-/* =======================
-   ABOUT SECTION
-======================= */
+
 
 #about{
 
@@ -426,8 +399,6 @@ body{
 
 }
 
-
-/* IMAGE + ABOUT ME */
 
 .about-top{
 
@@ -443,8 +414,6 @@ body{
 
 }
 
-
-/* IMAGE */
 
 .about-right img{
 
@@ -476,7 +445,6 @@ body{
 }
 
 
-/* ABOUT ME CARD */
 
 .about-me{
 
@@ -485,8 +453,6 @@ body{
 }
 
 
-
-/* CARDS GRID */
 
 
 .about-cards{
@@ -502,10 +468,6 @@ body{
 }
 
 
-
-/* =======================
-   CARDS
-======================= */
 
 .card{
 
@@ -537,9 +499,6 @@ body{
 
 }
 
-
-
-/* CORNERS */
 
 .card::before{
 
@@ -588,9 +547,6 @@ body{
 }
 
 
-
-/* TEXT */
-
 .card h2{
 
     font-size:30px;
@@ -622,9 +578,6 @@ body{
 
 }
 
-
-
-/* TAGS */
 
 .skills-tags{
 
@@ -668,9 +621,7 @@ body{
 
 }
 
-/* =======================
-   STRENGTHS SECTION
-======================= */
+
 
 #strengths{
 
@@ -695,9 +646,6 @@ body{
 
 }
 
-/* =======================
-   PROJECTS
-======================= */
 
 #projects{
     padding: 120px 10%;
@@ -759,8 +707,6 @@ body{
 
 
 
-/* pink corner */
-
 .project-card::before{
 
     content:"";
@@ -796,7 +742,6 @@ body{
 
 
 
-/* Image */
 
 .project-card img{
 
@@ -814,7 +759,6 @@ body{
 
 
 
-/* Title */
 
 .project-card h3{
 
@@ -828,7 +772,6 @@ body{
 
 
 
-/* Description */
 
 .project-card p{
 
@@ -843,7 +786,6 @@ body{
 
 
 
-/* Tags */
 
 .project-tags{
 
@@ -875,7 +817,6 @@ body{
 
 
 
-/* Link */
 
 .project-card a{
 
@@ -906,9 +847,6 @@ body{
 }
 
 
-/* =======================
-   FOOTER
-======================= */
 
 
 footer{
@@ -1057,10 +995,6 @@ footer{
 }
 
 
-
-/* =======================
-   CONTACT
-======================= */
 
 #contact{
 
