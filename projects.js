@@ -1,5 +1,30 @@
 const projects = [
 
+   {
+    title: "BikerX-Platform",
+
+    image: "images/projects/bikerXbackground.png",
+
+    description:
+      "A full-stack motorcycle community platform featuring a React Native mobile app, React admin dashboard, and ASP.NET Core backend. Includes ride tracking, fall detection, emergency contacts, meetups, social interactions, and content moderation.",
+
+    technologies: [
+      "React Native",
+      "React",
+      "JavaScript",
+      "TypeScript",
+      "ASP.NET Core",
+      "C#",
+      "MongoDB Atlas",
+    ],
+
+    Mobile:
+      "https://github.com/5FaRaH6/BikerX-FullStack.git",
+
+    demo:
+      ""
+  },
+
   {
     title: "EventSphere",
 
@@ -24,8 +49,6 @@ const projects = [
     demo:
       ""
   },
-
-
 
   {
     title: "Smart Notes AI",
